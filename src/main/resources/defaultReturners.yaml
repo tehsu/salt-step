@@ -10,3 +10,7 @@ handlerMappings:
     file.touch:  *alwaysSuccessful
     file.append: *alwaysSuccessful
     file.remove: *alwaysSuccessful
+    test.ping: *alwaysSuccessful
+    cmd.run: *defaultCommandParser
+    state.highstate: *fullJsonCommandParser
+    state.apply: *fullJsonCommandParser
